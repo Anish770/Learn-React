@@ -8,7 +8,10 @@ function App() {
   // let counter=5
 
   const addValue=()=>{
-    setCounter (++counter)
+    setCounter (counter=>counter+1)
+    setCounter (counter=>counter+1)
+    setCounter (counter=>counter+1)
+    setCounter (counter=>counter+1)
     console.log('value added',counter);
     // counter=counter+1
   }
