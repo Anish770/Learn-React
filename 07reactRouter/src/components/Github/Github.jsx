@@ -12,8 +12,8 @@ function Github() {
     //     })
     // },[])
   return (
-    <div className='text-center bg-orange-400 text-md text-white py-4 flex flex-col justify-center items-center font-semibold text-xl'>Github followers : {data.name}
-    <img src={data.avatar_url} alt="user_img" className='w-48 h-48 '/></div>
+    <div className='text-center bg-slate-950 text-md text-white py-4 flex flex-col justify-center items-center font-semibold text-xl'>Github followers : {data.name}
+    <img src={data.avatar_url} alt="user_img" className='w-48 h-48 rounded-full'/></div>
   )
 }
 
